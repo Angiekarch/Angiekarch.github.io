@@ -1,0 +1,14 @@
+
+#hero {
+background-color: rgb(160, 44, 209);
+border-style: dotted;
+border-color: rgb(102, 51, 0);
+border-width: 10px;
+padding: 10px 10px 10px 10px;
+color: rgb(102, 51, 0);
+font-size: 300%;
+text-align: center;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Mooli', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
