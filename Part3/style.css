@@ -1,6 +1,5 @@
 html {
  background-color: rgb(179, 224, 171);
- background background-image: ;
 }
 
 #hero {
@@ -29,15 +28,15 @@ font-family: "Comic Neue";
 float: right;
 margin-top: 200px;
 margin-right: 200px;
-color:  rgb(84, 112, 79);
+color: rgb(84, 112, 79);
 }
 
 .container {
 	align-items: left;
 	max-width: 0%;
-	max-height: 10%;
-	display: flex;
+	max-height: 
 	background-color: rgb(46, 179, 20);
+	margin-left: 0;
 }
 
 #hobbes {
