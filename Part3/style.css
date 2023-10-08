@@ -32,11 +32,11 @@ color: rgb(84, 112, 79);
 }
 
 .container {
-	align-items: left;
-	max-width: 0%;
-	max-height: 
-	background-color: rgb(46, 179, 20);
-	margin-left: 0;
+align-items: left;
+max-width: 0%;
+max-height: 10%;
+background-color: rgb(46, 179, 20);
+margin-left: 0;
 }
 
 #hobbes {

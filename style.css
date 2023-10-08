@@ -1,14 +1,117 @@
+html {
+box-sizing: border-box;
+}
+/* color codes*/
 
-#hero {
-background-color: rgb(160, 44, 209);
-border-style: dotted;
-border-color: rgb(102, 51, 0);
-border-width: 10px;
-padding: 10px 10px 10px 10px;
-color: rgb(102, 51, 0);
-font-size: 300%;
-text-align: center;
-font-family: 'Dela Gothic One', cursive;
-font-family: 'Mooli', sans-serif;
-font-family: 'Open Sans', sans-serif;
+* {
+margin: 0;
+}
+
+
+*, *:before, *:after {
+	box-sizing: inherit;
+
+}
+
+/**************************************/
+
+/* colors: 
+#2B7282
+#E6B3C0
+#E7CFB6 */
+
+/*clearfix */
+
+.clearfix:before
+.clearfix:after {
+	content: " ";
+	display: table; 
+}
+
+
+.clearfix:after {
+	clear: both;
+}
+
+/*****************TYPOGRAPHY*********************/
+
+body {
+	font-size: 1cm;
+	text-align: justify;
+	font-family: "Bebas Neue";
+	line-height: 50px;
+
+}
+
+.title{
+	margin-top: 6px;
+	color:  #002A3D;
+	font-size: 2.3cm;
+}
+
+
+h1 {
+	color: #2B7282;
+	font-size: .7cm;
+}
+
+
+a {
+	color: #CC7066;
+	font-size: 1cm;
+	text-decoration: underline;
+	z-index: 10;
+}
+
+a:hover {
+	color: red;
+	transition: 2s;
+}
+body {
+	font-size: 1cm;
+	text-align: justify;
+	font-family: "Bebas Neue";
+	line-height: 50px;
+}
+/****************IMAGES**********************/
+
+img#overlay {
+ width: 100%;
+ opacity: 1.0;
+ position: fixed;
+ bottom:1px;
+ z-index: 3;
+ scroll-behavior: smooth;
+ object-position: center;
+ pointer-events: none;
+}
+
+img#overlay:hover {
+	place-content: bottom;
+	mix-blend-mode: darken;
+	overflow: scroll;
+
+
+}
+
+img#bear {
+	position: absolute;
+	bottom: 50px;
+	z-index: 5;
+	left: 500px;
+	mix-blend-mode: darken;
+}
+
+#jumbotron {
+	/*
+	background-image: url(http://placekitten.com/g/200/300);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #E7CFB6;
+	*/
+	position: relative;
+	background-color: #e7cfb6;
+	height: 100vh;
+	overflow: scroll;
+	z-index: 5;
 }
