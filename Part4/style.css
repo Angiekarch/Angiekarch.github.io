@@ -1,0 +1,165 @@
+html {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+cursor: url('Autocursor.png');
+}
+
+
+*, *:before, *:after {
+	box-sizing: inherit;
+
+}
+
+
+}
+/**************************************/
+.clearfix:before
+.clearfix:after {
+	content: " ";
+	display: table; 
+}
+
+
+.clearfix:after {
+	clear: both
+}
+
+
+
+
+body{
+font-size: 20pt;
+text-align: left-justify;
+font-family: "Chakra Petch";
+background: #EDE9C9;
+cursor: url('Autocursor.png'), auto;
+}
+
+
+ /*********************DECORATIVE ELEMENTS***********/
+img#overlay{
+ width: 50%;
+ opacity: 1.0;
+ position: fixed;
+ bottom:1px;
+ z-index: 3;
+ scroll-behavior: smooth;
+ object-position: center;
+ pointer-events: none;
+ top: 100px;
+ display: flex;
+ justify-content: center;
+}
+
+
+
+/*********************LINK 1*********************/
+h1{
+color: #256F6F;
+font-size: 50pt;
+margin-top: 30pt;
+}
+
+#one { 
+text-decoration: none;
+color: #133936;
+}
+
+#one:hover{
+color: #256F6F;
+transition: 1s;
+}
+
+
+
+/*********************LINK 2*********************/
+h2{ 
+color: #133936;
+margin-top: 30pt;
+font-size: 25pt;
+ }
+
+ #two {
+ text-decoration: none;
+color: #133936;	
+ }
+
+ #two:hover{
+ color: #256F6F;
+ transition: 0s;
+ }
+
+
+/*********************LINK 3*********************/
+#three {
+position: fixed;
+ margin-left: 40px;
+ margin-bottom: 60px;
+ margin-top: 130px;
+ bottom: 400px;
+ top: 100px;
+opacity: 0;
+font-size: 60pt;
+z-index: 5;
+}
+
+
+
+/*********************LINK 4*********************/
+img#background {
+width: 100%;
+place-content: bottom;
+margin-top: 150px;
+}
+
+img#background:hover {
+position: absolute;
+opacity: 10%;
+transition: 5s;
+z-index: 0;
+}
+
+#four {
+place-content: bottom;
+position: absolute;
+z-index: 1;
+top: 1000px;
+left: 600px;
+right: 475px;
+color: #6e6f76;
+}
+
+/*********************LINK 5*********************/
+#five: {}
+
+#five:hover {
+background-image: url(images/veryhappy.svg);
+transition: 2s;
+
+}
+
+/*********************LINK 6*********************/
+
+#text {
+display: flex;
+justify-content: right;
+place-content: top;
+ opacity: 30%;
+}
+
+
+#six{
+text-decoration: none;
+font-family: "Roboto Slab", serif;
+color: black;
+}
+
+
+
+
+
+
+
