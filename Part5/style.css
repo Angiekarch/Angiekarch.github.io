@@ -1,0 +1,93 @@
+
+/***********************************HERO************************/
+
+#hero {
+background-color: black;	
+border-style: double;
+border-color: black;
+border-width: medium;
+margin-bottom 200pt;
+}
+
+
+img#creedimage{
+display: flex;
+justify-content: flex-end;
+ width: 100%;
+ opacity: 1.0;
+ position: fixed;
+ bottom:1px;
+ z-index: 3;
+ scroll-behavior: smooth;
+ object-position: center;
+ pointer-events: none;
+ top: 100px;
+ display: flex;
+ justify-content: flex-end;
+ opacity: 40%;
+}  
+
+img#creedimage:hover{
+position: absolute;
+ opacity: 10%;
+ transition: 3s;
+}
+
+#hero h1 {
+text-align: left;
+color: whitesmoke;
+margin-top: 50pt;
+font-size: 40pt;
+}
+
+#hero h2 {
+text align: left;
+margin-left: 40pt;
+color: whitesmoke;
+opacity: 70%;
+margin-bottom: 0pt;
+margin-top: 30pt;
+ display: flex;
+ justify-content: flex-start;
+}
+
+#button {
+ background-color: ghostwhite;
+ padding: 10px 14px;
+ text-align: center;
+ text-decoration: none;
+ border-style: none;
+ border-radius: 8px;
+ display: flex;
+ justify-content: flex-end;
+ margin-left: 600pt;
+
+}
+
+
+/***********************************"Creed Thoughts"************************/
+
+#thoughts {
+margin-top: 40pt;
+font-family: 'Chakra Petch';
+}
+
+#thoughts h3 { 
+font-weight: bold;
+font-size: 20pt;
+margin-left: 50px;
+ }
+
+ #thoughts h4 {
+ justify-content: center;
+ opacity: 80%;
+ margin-left: 40pt;
+ }
+
+ /***********************************Review Page************************/
+
+#stars {
+width: 100px;
+margin-left: 50px;
+margin-top: 15px;
+}
