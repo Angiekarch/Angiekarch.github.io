@@ -1,0 +1,32 @@
+	html {
+ background-color: rgb(242, 216, 174);
+}
+
+#hero {
+background-color: rgb(196, 134, 33);
+border-width: none;
+padding: 10px 10px 10px 10px;
+color: ghostwhite;
+font-size: 300%;
+text-align: center justify;
+font-family: "GT Super";
+}
+
+#button {
+ background-color: ghostwhite;
+ font-weight: bol;
+ padding: 10px 14px;
+ text-align: center;
+ text-decoration: none;
+ border-style: none;
+ border-radius: 8px;
+ display: flex;
+ justify-content: flex-end;
+ margin-left: 60pt;
+
+}
+
+#initial {
+justify-content: center;
+font-family: ;
+}
