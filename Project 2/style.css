@@ -482,9 +482,86 @@ margin-bottom: 65px;
 
 
 
-
-
-
 /**************************************** FOOTER ********************************/
 
-s
+
+footer {
+	background-color: #161616;
+	border-radius: 125px 125px 0px 0px;
+	color: #fff;
+	position: relative;
+	z-index: 4;
+}
+
+footer h4 {
+	padding: 2rem;
+	font-family: "GT-Light";
+}
+
+#partners {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0 5%;
+}
+
+#partners ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer li {
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+
+#foot-links {
+	margin-top: 40px;
+}
+
+#foot-links li:first-child {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+#foot-links ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#foot-links li {
+	text-align: left;
+}
+
+#foot-links img {
+	max-width: 70px;
+}
+
+#socials {
+	display: flex;
+	flex-direction: row;
+}
+
+#legal {
+	text-align: right;
+}
+
+#legal span {
+	margin-left: 30px;
+}
+
+#bottom {
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 40px;
+	color: antiquewhite;
+}
