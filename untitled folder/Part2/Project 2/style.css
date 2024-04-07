@@ -1,0 +1,567 @@
+/* Stylesheet for the 53 redesign 
+
+
+Colors: ;
+White
+Black
+Red highlight
+Contrast button color #ef57d4
+
+Typefaces being used:
+Monteserrat for main titles 
+eaves for body text
+
+
+
+*/
+
+/* Add other notes for the redesign here */
+
+
+
+
+
+
+/* This section is for universal selections and rules */
+
+/* box model Fix */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clear Fix */
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+/* image rules */
+
+img {
+	width: 100%;
+}
+
+/* Type Hierarchy */
+
+@font-face {
+    font-family: "GT-Super";
+    src: url("../GT-Super/GT-Super-Display-Super.woff2");
+}
+
+@font-face {
+	font-family: "GT-Medium";
+	src: url("../GT-Super/GT-Super-Display-Medium.woff2");
+}
+
+@font-face {
+	font-family: "GT-Light";
+	src: url("../GT-Super/GT-Super-Display-Regular.woff2");
+}
+
+
+
+body {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "GT-Super";
+	font-size: 60px;
+	margin: 1;
+	/* we could also use font-size: 4rem; to get the same size. 
+	Ultimatley if we were building a site to be completely 
+	responsive then we would want to use this but I am going 
+	to use my Figma File as a refernce and they use absolute values
+	*/
+}
+
+h2 {
+	font-family: "GT-Super";
+	font-size: 36px;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+h4 {
+	font-family: "GT-Super";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+h5 {
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.8rem;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poppins';
+}
+
+a:hover {
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.tighten {
+	letter-spacing: -0.03em;
+}
+
+/* header styles and rules */
+
+header {
+	background-color: #153b84;
+	color: #fff;
+	position: fixed;
+	height: 90px;
+	z-index: 4;
+	font-size: 0.6em;
+}
+
+.icon {
+	fill:  whitesmoke;
+}
+
+/* 
+header li {
+	float: left;
+	margin-left: 18px;
+}
+*/
+#logo a {
+	display: inline-block;
+	padding: 1rem;
+	max-width: 120px;
+	margin-top: 15px;
+}
+
+
+#search {
+	display: inline-block;
+	border-style: solid;
+	border-color: #fff;
+	margin-left: 10px;
+	padding: 1rem 20px;
+	border-radius: 30px;
+	width: 310px;
+}
+
+#search a {
+	line-height: 100px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+/* homepage hero styles and rules */
+
+#hero {
+	background-image: url("../images/hero1.jpg");
+	background-size: cover;
+	background-color: red;
+	height: 90vh;
+}
+
+#hero-chunk {
+	width: 400px;
+	color: #fff;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+#hero h1 {
+	padding-bottom: 16px;
+}
+
+#hero h5 {
+	padding-bottom: 30px;
+}
+
+a.CTA {
+	background-color: #c2402f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+}
+
+
+/* homepage mission statemetent styles and rules */
+#mission {
+	text-align: center;
+	color: #161616;
+	width: 680px;
+	margin: 80px auto;
+	margin-bottom: 160px;
+}
+
+#mission h2 {
+	padding-bottom: 60px;
+}
+
+#mission p {
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+ /********************************* HERO SECTION *****************************************/
+
+#hero {
+background-color: black;
+border-width: none;
+padding: 110px;
+color: ghostwhite;
+font-size: 00%;
+text-align: left;
+border-radius: 90px;
+font-family: helvetica;
+margin-left: 65px;
+margin-right: 250px;
+
+}
+
+#heroimg { 
+z-index: 0;
+margin-left: 400px;
+border-radius: 90px;
+width: 600px;
+height: 403px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+
+ }
+
+#hero h1{ 
+margin-bottom: 0px;
+font-size: 130px;
+}
+
+#hero h2{
+margin-top: 10px;
+
+}
+
+#button {
+ background-color: black;
+ font-style: bold;
+ padding: 10px 14px;
+ text-align: center;
+ border-color: ghostwhite;
+ text-decoration: none;
+ border-style: solid;
+ border-radius: 25px;
+ display: flex;
+ justify-content: flex-end;
+ margin-left: 0pt;
+ margin-bottom: 20pt;
+ align-content: flex-start;
+color: ghostwhite;
+padding: 10px 15px 10px 15px;
+font-size: 20px;
+margin-top: 40pt;
+
+}
+
+ /********************************* PAGE CONTENT *****************************************/
+
+#initial {
+margin-left: 165px;
+margin-top: 130px;
+margin-right: 200px;
+margin-bottom: 65px;
+}
+
+#initial h3 { 
+text-align: justify;
+}
+
+#one h2{
+margin-left: 200px;
+margin-top: 10px;
+margin-right: 500px;
+text-align: left;
+}
+
+#one h3 {
+margin-right: 300px;
+margin-left: 200px;
+
+}
+
+
+#oneimg { 
+z-index: 0;
+margin-left: 1000px;
+width: 100px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+} 
+
+
+#two {
+margin-left: 750px;
+margin-top: 110px;
+width: 500px;
+text-align: justify;
+}
+
+#sketch { 
+z-index: 0;
+margin-left: 400px;
+border-radius: 60px;
+width: 400px;
+height: 303px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+right: 850px;
+top: 1285px;
+
+} 
+
+#colours {
+display: inline-flex;
+margin-top: 150px;
+}
+
+
+#yellow h2 {
+margin-bottom: 20px;
+}
+#yellow {
+z-index: 0;
+margin-left: 10px;
+margin-top: 150px;
+width: 500px;
+text-align: justify;
+background-image: url(images/yellow.png);
+background-repeat: no-repeat;
+
+}
+
+#green h2 {
+margin-bottom: 20px;
+}
+
+#green {
+margin-left: 220px;
+margin-top: 150px;
+width: 500px;
+background-image: url(images/green.png);
+background-repeat: no-repeat;
+
+}
+
+#three {
+margin-left: 10px;
+margin-top: 150px;
+width: 500px;
+text-align: justify;
+}
+
+
+#stylus { 
+z-index: 0;
+margin-left: 400px;
+border-radius: 60px;
+width: 400px;
+height: 303px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+right: 250px;
+top: 2100px;
+} 
+
+#four { 
+margin-left: 165px;
+margin-top: 130px;
+margin-right: 200px;
+margin-bottom: 65px;
+}
+
+#five {
+margin-left: 10px;
+margin-top: 150px;
+width: 500px;
+text-align: justify;
+}
+
+#videostill {
+z-index: 0;
+margin-left: 400px;
+border-radius: 60px;
+width: 400px;
+height: 303px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+right: 250px;
+top: 2725px;
+
+}
+
+#six {
+margin-left: 750px;
+margin-top: 250px;
+width: 500px;
+text-align: justify;
+}
+
+#paperdetail { 
+z-index: 0;
+margin-left: 400px;
+border-radius: 60px;
+width: 400px;
+height: 303px;
+position: absolute;
+display: flex;
+justify-content: flex-end;
+right: 850px;
+top: 3050px;
+} 
+
+#seven {
+margin-left: 165px;
+margin-top: 130px;
+margin-right: 200px;
+margin-bottom: 65px;
+}
+
+
+@media screen and (oneimg) {
+
+	.mobileFirst .row div {
+		float: left;
+		display: inline-block;
+	}
+
+
+
+/**************************************** FOOTER ********************************/
+
+
+footer {
+	background-color: #161616;
+	border-radius: 125px 125px 0px 0px;
+	color: #fff;
+	position: relative;
+	z-index: 4;
+}
+
+footer h4 {
+	padding: 2rem;
+	font-family: "GT-Light";
+}
+
+#partners {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0 5%;
+}
+
+#partners ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer li {
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+
+#foot-links {
+	margin-top: 40px;
+}
+
+#foot-links li:first-child {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+#foot-links ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#foot-links li {
+	text-align: left;
+}
+
+#foot-links img {
+	max-width: 70px;
+}
+
+#socials {
+	display: flex;
+	flex-direction: row;
+}
+
+#legal {
+	text-align: right;
+}
+
+#legal span {
+	margin-left: 30px;
+}
+
+#bottom {
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 40px;
+	color: antiquewhite;
+}

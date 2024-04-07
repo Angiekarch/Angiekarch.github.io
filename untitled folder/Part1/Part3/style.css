@@ -1,0 +1,57 @@
+html {
+ background-color: rgb(179, 224, 171);
+}
+
+#hero {
+background-color: rgb(84, 112, 79);
+background-image: ;
+border-width: 10px;
+padding: 10px 10px 10px 10px;
+color: ghostwhite;
+font-size: 300%;
+text-align: center justify;
+font-family: "Comic Neue";
+}
+
+#hero h2{
+font-size: 100%;
+text-align: left;
+}
+
+#hero a{
+color: rgb(55, 74, 52);
+font-size: 50%;
+}
+
+#buttons { 
+font-family: "Comic Neue";
+float: right;
+margin-top: 200px;
+margin-right: 200px;
+color: rgb(84, 112, 79);
+}
+
+.container {
+align-items: left;
+max-width: 0%;
+max-height: 10%;
+background-color: rgb(46, 179, 20);
+margin-left: 0;
+}
+
+#hobbes {
+text-align: left;
+font-family: "Comic Neue";
+margin-left: 10px;
+color: rgb(84, 112, 79)
+}
+
+#hobbes h1 {
+font-size: 500%;
+}
+
+#image {
+align-content: left;
+width: 500px;
+height: 500px;
+}
